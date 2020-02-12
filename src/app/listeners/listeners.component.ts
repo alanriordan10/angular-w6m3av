@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Listener } from '../model/listener';
 
 @Component({
   selector: 'app-listeners',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./listeners.component.css']
 })
 export class ListenersComponent implements OnInit {
+
+  listeners: Listener[];
 
   constructor() { }
 
